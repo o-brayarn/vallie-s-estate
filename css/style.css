@@ -5,12 +5,13 @@
 }
 html {
     background-color: #FAFAFA;
-    font-style: Space Grotesk;
     padding: 50px;
+    border-top: 2px;
 }
 body {
     font-family: 'Times New Roman', Times, serif;
     max-width: fit-content;
+    align-items: center;
 }
 logo {
     text-align: left;
@@ -22,7 +23,22 @@ h1 {
     font-size: 20px;
 }
 .moreInfo {
-    display: none;
+    display: none
+}
+nav {
+    background-color: #FAFAFA;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 40px;
+    font-size: 30px;
+    align-items: center;
+}
+nav a {
+    color: black;
+    text-decoration: none;
+}
+nav a:hover {
+    color: #2549D3;
 }
 .learn-more-btn {
     padding: 15px 25px;
@@ -31,4 +47,17 @@ h1 {
     border-radius: 10px;
     font-size: 20px;
     cursor: pointer;
+    margin: 10px;
+}
+.img1 {
+    float: right;
+    padding: 2px;
+    margin: 50px;
+    width: 50%;
+    
+}
+.welcome1{
+    text-align: justify;
+    font-family:'Times New Roman', Times, serif;
+    padding-left: 30px;
 }
