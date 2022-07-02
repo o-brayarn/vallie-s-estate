@@ -4,20 +4,27 @@
     margin: 0;
 }
 html {
-    background-color: #FAFAFA;
-    padding: 50px;
+   /* background-color: blue;*/
+    padding: 25px;
     border-top: 2px;
+    margin: 30px;
+    /*align-items: center;*/
 }
 body {
+    background-color: #FAFAFA;
     font-family: 'Times New Roman', Times, serif;
     max-width: fit-content;
     align-items: center;
+    padding-left: 50px;
 }
-logo {
+.logo {
     text-align: left;
+    font-style: italic;
+    font-family: monospace;
 }
 h1 {
-    font-size: 25px;
+    font-size: 30px;
+    color: #2549D3;
 }
 .text {
     font-size: 20px;
@@ -26,7 +33,6 @@ h1 {
     display: none
 }
 nav {
-    background-color: #FAFAFA;
     display: flex;
     justify-content: space-around;
     margin-bottom: 40px;
@@ -51,13 +57,37 @@ nav a:hover {
 }
 .img1 {
     float: right;
-    padding: 2px;
-    margin: 50px;
-    width: 50%;
+    padding-right: 500px;
+    padding-left: 20px;
+    width: 80%;
     
 }
 .welcome1{
     text-align: justify;
     font-family:'Times New Roman', Times, serif;
     padding-left: 30px;
+}
+.search-btn {
+    text-align: center;
+    padding: 600px;
+}
+.search-btn {
+    background-color: white;
+    padding: 25px;
+    margin-top: 500px;
+    margin-left: 100px;
+    margin-right: 100px;
+    /*max-width: fit-content; */
+    padding-left: 30px;
+    border-radius: 2pc;
+    font-size: 18px;
+}
+.search {
+    color: #FAFAFA;
+    background-color: #2549D3;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    margin: 10px;
 }
