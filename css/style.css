@@ -25,6 +25,7 @@ body {
 h1 {
     font-size: 30px;
     color: #2549D3;
+    margin-top:70px;
 }
 .text {
     font-size: 20px;
@@ -54,6 +55,7 @@ nav a:hover {
     font-size: 20px;
     cursor: pointer;
     margin: 10px;
+    margin-top: 90px;
 }
 .img1 {
     float: right;
@@ -90,4 +92,50 @@ nav a:hover {
     font-size: 15px;
     cursor: pointer;
     margin: 10px;
+}
+h2 {
+    color: #2549D3;
+    text-align: center;
+}
+.products {
+    text-align: center;
+    font-size: 30px;
+    margin: 10px;
+}
+.operations {
+    margin-top: 50px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+
+}
+.operations div {
+    background-color: white;
+    align-items: center;
+    margin: 20px;
+    width: 20%;
+    padding: 20px;
+}
+.img2 {
+    float: none;
+    
+    width: 20%;
+}
+.img3 {
+    float: none;
+    width: 20%;
+}
+.img4 {
+    float: none;
+    width: 20%;
+}
+/*
+Styling "Why Choose us section"
+*/
+.quality-control {
+    padding: 90px;
+}
+.img5 {
+    float: left;
+    width: 20%;
 }
