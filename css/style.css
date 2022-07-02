@@ -116,6 +116,7 @@ h2 {
     width: 20%;
     padding: 20px;
 }
+/*images still need to be edited to perfectly match the ones in the assignment*/
 .img2 {
     float: none;
     
@@ -138,4 +139,57 @@ Styling "Why Choose us section"
 .img5 {
     float: left;
     width: 20%;
+}
+/*style Our Our Esteemed Customers*/
+.client-fb{
+    padding: 50px;
+    align-content: center;
+}
+.client-fb h1 {
+    text-align: center;
+    font-size: 30px;
+}
+.intro-to-fb {
+    text-align: center;
+    font-size: 28px;
+}
+.client-fb div {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+.view-more {
+    color: #FAFAFA;
+    background-color: #2549D3;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+/* Style the last part of the landing page*/
+.last-part {
+    display: flex;
+    justify-content: space-around;
+    background-color: #2549D3;
+    margin: 50px;
+    padding-bottom: 100px;
+}
+.last-part div{
+    align-items: center;
+}
+.last-part h2{
+    color: black;
+    padding: 20px;
+}
+.last-part h1 {
+    color: black;
+}
+.last-part p {
+    font-size: 20px;
+}
+#item-list {
+    list-style-type: none;
+    font-size: 20px;
 }
