@@ -134,35 +134,76 @@ h2 {
 Styling "Why Choose us section"
 */
 .quality-control {
-    padding: 90px;
+    padding-top: 20px;
+    place-items: right;
+    margin: 200px;
+    font-size: 20px;
+    padding-left: 0px;
+
 }
 .img5 {
     float: left;
-    width: 20%;
-}
-.quality-control {
-    font-size: 20px;
-
+    width: 30%;
+    padding-bottom: 20px;
 }
 .quality-control p{
-    text-align: center;
+    text-align: left;
+    font-size: 28px;
+    padding-bottom: 20px;
 }
 .quality-control form {
-    text-align: center;
+    margin-left: 500px;
+    padding: 10px;
+    /* margin: 20px; */
+    /* margin-left: 50px; */
+    max-width: 300px;
+    /* text-align: center;
     justify-content: center;
-    place-items: center;
+    place-items: center; */
+    font-size: 26px;
+    word-spacing: 10px;
 }
+
+
 /*style Our Our Esteemed Customers*/
-.prop-feats {
-    padding: 150px;
-    justify-content: center;
-}
-.prop-feats h2{
+.feat-header {
+    padding-top: 400px;
     font-size: 30px;
 }
-.prop-feats p {
+.feat-p {
     text-align: center;
     font-size: 25px;
+}
+.prop-feats {
+    padding: 150px;
+    display: flex;
+}
+.prop-feats div {
+    background-color: white;
+    display: 100vh;
+    /* align-items: left; */
+    margin-top: 30px;
+    /* max-width: fit-content; */
+    padding: 100px;
+    margin: 20px;
+    border-radius: 20px;
+    padding-right: 20px;
+}
+.img6 {
+    float: left;
+    width: 100%;
+    max-width: fit-content;
+    /* position: relative; */
+}
+.img7 {
+    float: left;
+    width: 100%;
+    /* position: relative; */
+}
+.img8 {
+    float: left;
+    position: relative;
+   width: 100%;
 }
 
 .view-more {
