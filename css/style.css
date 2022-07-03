@@ -165,8 +165,8 @@ Styling "Why Choose us section"
 }
 
 
-/*style Our Our Esteemed Customers*/
 .feat-header {
+    
     padding-top: 400px;
     font-size: 30px;
 }
@@ -205,6 +205,9 @@ Styling "Why Choose us section"
     position: relative;
    width: 100%;
 }
+
+/*style Our Our Esteemed Customers*/
+
 
 .view-more {
     color: #FAFAFA;
