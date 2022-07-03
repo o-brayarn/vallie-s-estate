@@ -61,7 +61,7 @@ nav a:hover {
     float: right;
     padding-right: 500px;
     padding-left: 20px;
-    width: 80%;
+    max-width: 70%;
     
 }
 .welcome1{
@@ -154,12 +154,7 @@ Styling "Why Choose us section"
 .quality-control form {
     margin-left: 500px;
     padding: 10px;
-    /* margin: 20px; */
-    /* margin-left: 50px; */
     max-width: 300px;
-    /* text-align: center;
-    justify-content: center;
-    place-items: center; */
     font-size: 26px;
     word-spacing: 10px;
 }
@@ -167,7 +162,7 @@ Styling "Why Choose us section"
 
 .feat-header {
     
-    padding-top: 400px;
+    padding-top: 100px;
     font-size: 30px;
 }
 .feat-p {
@@ -175,8 +170,9 @@ Styling "Why Choose us section"
     font-size: 25px;
 }
 .prop-feats {
-    padding: 150px;
+    padding: 50px;
     display: flex;
+    flex-direction: row;
 }
 .prop-feats div {
     background-color: white;
@@ -207,7 +203,26 @@ Styling "Why Choose us section"
 }
 
 /*style Our Our Esteemed Customers*/
-
+.fb-header h1{
+    text-align: center;
+}
+.fb-header p {
+    text-align: center;
+    font-size: 25px;
+    padding: 20px;
+}
+.client-fb {
+}
+.client-fb div{
+    display:inline-block;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    background-color: white;
+    border-radius: 20px;
+    margin-left: 90px;
+    max-width: 15%;
+}
 
 .view-more {
     color: #FAFAFA;
