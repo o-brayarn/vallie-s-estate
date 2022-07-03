@@ -4,12 +4,183 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
     <title>Vallie's Estate</title>
 </head>
 <body>
     <nav>
-        
+        <div class="logo"><a href="#">Vallie's Estate</a></div>
+        <div class="nav"><a href="">Home</a>
+        <a href="">Rent</a>
+        <a href="">Land</a>
+        <a href="">Agent</a>
+        <a href="">Contact us</a></div>
     </nav>
-    <p></p>
+    <img class="img1" src="../pictures/image 1.png" alt="Oooh man! You should have seen this. Refresh.">
+    <div class="welcome1"><h1>Helping you find the property of your dreams.</h1> 
+        <p class="text">Creating quality urban lifestyle, building stronger communities<span class="moreInfo">You missed it</span></p>
+        <button class="learn-more-btn">Learn More</button> 
+    </div>
+
+    <!--Creating the search section-->
+    <div class="search-btn">
+        <form action="search">
+            <!--Use label tags and select tags to create the dropdown menu for the labels-->
+            <label for="location">Location</label>
+            <select name="location" class="region">
+                <optgroup>
+                    <option selected value="lekki">Lekki</option>
+                    <option value="washington-dc">Washington DC</option>
+                    <option value="nairobi">Nairobi</option>
+                </optgroup>
+            </select>
+            <label for="property-type">Property Type</label>
+            <select name="property-type" class="real-estate">
+                <optgroup>
+                    <option selected value="duplex">Duplex</option>
+                    <option value="villas">Villas</option>
+                </optgroup>
+            </select>
+            <label for="max-price">Max Price</label>
+            <select name="max-price" class="property-price">
+                <optgroup>
+                    <option selected value="$10,000">$10,000</option>
+                    <option value="$20,000">$20,000</option>
+                </optgroup>
+            </select>
+            <button class="search">Search</button>
+
+        </form>
+    </div>
+
+    <!--Add CSS from here-->
+    <h1>Our Products</h1>
+    <h2>How it Works.</h2>
+    <p class="products">This is how our products work</p>
+    <div class="operations">
+        <div>
+            <img src="pictures/address mark.png" alt="Just an address mark." class="img2">
+            <p>Find Home</p>
+            <p>Our properties are located at prime areas where by there won't be problem with transportation</p>
+        </div>
+
+        <div>
+            <img src="pictures/Smart house.png" alt="Smart house icon" class="img3">
+            <p>Make payments</p>
+            <p>Our estates come with good network, portable water, 24hrs light and round the clock security</p>
+        </div>
+
+        <div>
+            <img src="pictures/Secure data protection with fingerprint and lock.png" alt="You missed this too?" class="img4">
+            <p>Make it Official</p>
+            <p>We have been in the business for over 30 years, for client outside the country you can trust us to deliver well.</p> 
+        </div>
+
+    </div>
+
+    <div class="quality-control">
+        <img src="pictures/image 2.png" alt="Just an image." class="img5">
+     <h2>Why you should choose us.</h2>
+     <p>Creating quality urban lifestyles, building stronger communities</p>
+     <!--Create a checklist for the reasons...-->
+     <form action="checkbox">
+        <input checked type="checkbox">World class
+        <input checked type="checkbox">Trusted
+        <input checked type="checkbox"> Affordable
+        <input checked type="checkbox">Amenities
+     </form>
+    </div>
+
+    
+        <h2 class="feat-header">Our Featured Properties.</h2>
+        <p class="feat-p">One of our biggest product to be featured and that has sold out the most.</p>
+    <div class="prop-feats">
+        <div>
+            <img src="/pictures/image 4.png" alt="The Palace in Lekki Phase 2" class="img6">
+            <h2>The Palace</h2>
+            <p>Lekki, phase 2</p>
+            <p>Duplex</p> 
+            <p>$20,000</p>
+        </div>
+        <div>
+            <img src="/pictures/image 3.png" alt="Ivory Rory" class="img7">
+            <h2>IVY RORY</h2>
+            <p>Lekki,phase 2</p>
+            <p>Duplex</p>
+            <p>$2,000</p>
+        </div>
+        <div>
+            <img src="/pictures/image 5.png" alt="Rexona" class="img8">
+            <h2>REXONA</h2>
+            <p>Lekki,phase 2</p>
+            <p>Duplex</p>
+            <p>$2,000</p>
+        </div>
+   
+    </div>
+
+
+    <!--Come back to edit the divs in this section-->
+        <div class="fb-header">
+            <h1>Our Esteemed Customers</h1>
+            <p>This is what our clients are saying</p>
+        </div>
+    <div class="client-fb">
+        <div>
+            <h3>Alex Godwin</h3>
+            <h4>South Africa</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora est quas molestias culpa debitis neque eaque porro voluptas rerum aliquam.</p>
+        </div>
+
+        <div>
+            <h3>Alex Godwin</h3>
+            <h4>South Africa</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum distinctio possimus excepturi culpa ducimus adipisci iusto, porro obcaecati minima eius.</p>
+        </div>
+
+        <div>
+            <h3>Alex Godwin</h3>
+            <h4>South Africa</h4>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo rem nostrum reiciendis quidem illum ratione?</p>
+        </div>
+    </div>
+
+    <button class="view-more">View More</button>
+    
+    <div class="last-part">
+        <div>
+            <h1>Vallie's Estate</h1>
+            <p>Solution for easy and flexible house hunting. You can trust us anywhere through this platform</p>
+        </div>
+        <div>
+            <h2>Property</h2>
+            <ul id="item-list">
+                <li>Learning Model</li>
+                <li>Partnershup</li>
+                <li>Watch demo</li>
+                <li>Event</li>
+            </ul>
+        </div>
+
+        <div>
+            <h2>About</h2>
+            <ul id="item-list">
+                <li>Our Company</li>
+                <li>Career</li>
+                <li>Investors Relations</li>
+                <li>Social Impact</li>
+            </ul>
+        </div>
+
+        <div>
+            <h2>Resources</h2>
+            <ul id="item-list">
+                <li>Contact</li>
+                <li>Give Feedback</li>
+                <li>System status</li>
+                <li>Privacy Policy</li>
+            </ul>
+        </div>
+    </div>
 </body>
 </html>
