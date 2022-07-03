@@ -140,24 +140,31 @@ Styling "Why Choose us section"
     float: left;
     width: 20%;
 }
+.quality-control {
+    font-size: 20px;
+
+}
+.quality-control p{
+    text-align: center;
+}
+.quality-control form {
+    text-align: center;
+    justify-content: center;
+    place-items: center;
+}
 /*style Our Our Esteemed Customers*/
-.client-fb{
-    padding: 50px;
-    align-content: center;
-}
-.client-fb h1 {
-    text-align: center;
-    font-size: 30px;
-}
-.intro-to-fb {
-    text-align: center;
-    font-size: 28px;
-}
-.client-fb div {
-    display: flex;
-    align-content: center;
+.prop-feats {
+    padding: 150px;
     justify-content: center;
 }
+.prop-feats h2{
+    font-size: 30px;
+}
+.prop-feats p {
+    text-align: center;
+    font-size: 25px;
+}
+
 .view-more {
     color: #FAFAFA;
     background-color: #2549D3;
