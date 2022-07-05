@@ -13,7 +13,8 @@ html {
 body {
     background-color: #FAFAFA;
     font-family: 'Times New Roman', Times, serif;
-    max-width: fit-content;
+    /* max-width: fit-content; */
+    height: 100vh;
     align-items: center;
     padding-left: 50px;
 }
@@ -210,8 +211,6 @@ Styling "Why Choose us section"
     text-align: center;
     font-size: 25px;
     padding: 20px;
-}
-.client-fb {
 }
 .client-fb div{
     display:inline-block;
