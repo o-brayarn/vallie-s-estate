@@ -21,7 +21,7 @@ body {
 .logo {
     text-align: left;
     font-style: italic;
-    font-family: monospace;
+    font-family: 'Oleo Script',cursive;
 }
 h1 {
     font-size: 30px;
@@ -250,6 +250,7 @@ Styling "Why Choose us section"
 }
 .last-part h1 {
     color: black;
+    font-family: 'Oleo Script',cursive;
 }
 .last-part p {
     font-size: 20px;
