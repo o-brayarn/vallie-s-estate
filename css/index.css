@@ -13,15 +13,23 @@ html {
 body {
     background-color: #FAFAFA;
     font-family: 'Times New Roman', Times, serif;
+<<<<<<< HEAD
     /* max-width: fit-content; */
     height: 100vh;
+=======
+    max-width: fit-content;
+>>>>>>> 1c148fba3c06108341a87dca0535e3ae3c1824da
     align-items: center;
     padding-left: 50px;
 }
 .logo {
     text-align: left;
     font-style: italic;
+<<<<<<< HEAD
     font-family: 'Oleo Script',cursive;
+=======
+    font-family: monospace;
+>>>>>>> 1c148fba3c06108341a87dca0535e3ae3c1824da
 }
 h1 {
     font-size: 30px;
@@ -212,6 +220,11 @@ Styling "Why Choose us section"
     font-size: 25px;
     padding: 20px;
 }
+<<<<<<< HEAD
+=======
+.client-fb {
+}
+>>>>>>> 1c148fba3c06108341a87dca0535e3ae3c1824da
 .client-fb div{
     display:inline-block;
     margin: 10px;
